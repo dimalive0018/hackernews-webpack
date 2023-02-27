@@ -10,6 +10,7 @@ export const estrazione = async (link) => {
         if (typeof api !== 'undefined'){
             return api;
         } else {
+            console.log('API file not available');
             return api = [0];
         };
     } catch (error) {
